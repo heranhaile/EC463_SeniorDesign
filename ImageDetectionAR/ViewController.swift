@@ -8,6 +8,8 @@
 import UIKit
 import SceneKit
 import ARKit
+import AVFoundation
+import SpriteKit
 
 class ViewController: UIViewController, ARSCNViewDelegate {
 
@@ -23,7 +25,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.showsStatistics = true
         
         // Create a new scene
-        let scene = SCNScene(named: "art.scnassets/ship.scn")!
+        let scene = SCNScene(named: "art.scnassets/VideoScene.scn")!
         
         // Set the scene to the view
         sceneView.scene = scene
@@ -33,10 +35,15 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         super.viewWillAppear(animated)
         
         // Create a session configuration
-        let configuration = ARWorldTrackingConfiguration()
+        let configuration = ARImageTrackingConfiguration()
+        
+        guard let referenceImages = ARReferenceImage.referenceImages(inGroupNamed: "AR Resources", bundle: nil) else {return}
+        
+        configuration.trackingImages = referenceImages
 
         // Run the view's session
-        sceneView.session.run(configuration)
+        sceneView.session.run(configuration, options:[.resetTracking, .removeExistingAnchors])
+    
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -45,30 +52,42 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Pause the view's session
         sceneView.session.pause()
     }
-
-    // MARK: - ARSCNViewDelegate
     
-/*
-    // Override to create and configure nodes for anchors added to the view's session.
-    func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
-        let node = SCNNode()
-     
-        return node
-    }
-*/
-    
-    func session(_ session: ARSession, didFailWithError error: Error) {
-        // Present an error message to the user
+    func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
         
-    }
-    
-    func sessionWasInterrupted(_ session: ARSession) {
-        // Inform the user that the session has been interrupted, for example, by presenting an overlay
+        guard anchor is ARImageAnchor else {return}
         
-    }
-    
-    func sessionInterruptionEnded(_ session: ARSession) {
-        // Reset tracking and/or remove existing anchors if consistent tracking is required
+        //Container
         
+        guard let container = sceneView.scene.rootNode.childNode(withName: "container", recursively: false) else {return}
+        
+        container.removeFromParentNode()
+        node.addChildNode(container) //connect to our reference image // videoScene will move around with the image
+        container.isHidden = false
+        
+        //Video
+        
+        let videoURL = Bundle.main.url(forResource: "YesVideo", withExtension: "mp4")!
+        
+        let videoPlayer = AVPlayer(url: videoURL)
+        
+        let videoScene = SKScene(size: CGSize(width: 720, height: 1280))
+        
+        let videoNode = SKVideoNode(avPlayer: videoPlayer)
+        
+        videoNode.position = CGPoint(x: videoScene.size.width/2, y: videoScene.size.height/2)
+        
+        videoNode.size = videoScene.size
+        
+        videoNode.yScale = -1
+        
+        videoNode.play()
+        
+        videoScene.addChild(videoNode)
+        
+        guard let video = container.childNode(withName: "video", recursively: true) else {return}
+        
+        video.geometry?.firstMaterial?.diffuse.contents = videoScene
+    
     }
 }
