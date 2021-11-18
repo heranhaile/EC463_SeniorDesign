@@ -14,6 +14,8 @@ import SpriteKit
 class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
+    var videoNode:SKVideoNode!
+    var videoPlayer:AVPlayer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -69,11 +71,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         let videoURL = Bundle.main.url(forResource: "YesVideo", withExtension: "mp4")!
         
-        let videoPlayer = AVPlayer(url: videoURL)
+        videoPlayer = AVPlayer(url: videoURL)
         
         let videoScene = SKScene(size: CGSize(width: 720, height: 1280))
         
-        let videoNode = SKVideoNode(avPlayer: videoPlayer)
+        videoNode = SKVideoNode(avPlayer: videoPlayer)
         
         videoNode.position = CGPoint(x: videoScene.size.width/2, y: videoScene.size.height/2)
         
@@ -89,5 +91,14 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         video.geometry?.firstMaterial?.diffuse.contents = videoScene
     
+    }
+    func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
+        guard let imageAnchor = (anchor as? ARImageAnchor) else { return }
+        if imageAnchor.isTracked {
+            videoNode.play()
+        } else {
+            videoPlayer.seek(to: CMTime.zero)
+            videoNode.pause()
+        }
     }
 }
