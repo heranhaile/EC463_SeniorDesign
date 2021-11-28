@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E45F1FF52741FA7B0055B299 /* YesVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E45F1FF42741FA7B0055B299 /* YesVideo.mp4 */; };
+		E413A99E275310010013A8A1 /* Yes.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E413A99D275310000013A8A1 /* Yes.mp4 */; };
+		E413A9A227531F0E0013A8A1 /* No.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E413A9A127531F0E0013A8A1 /* No.mp4 */; };
 		E4A049E52741EE6F00D3BE4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A049E42741EE6F00D3BE4A /* AppDelegate.swift */; };
 		E4A049E72741EE6F00D3BE4A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A049E62741EE6F00D3BE4A /* art.scnassets */; };
 		E4A049E92741EE6F00D3BE4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A049E82741EE6F00D3BE4A /* ViewController.swift */; };
@@ -18,7 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E45F1FF42741FA7B0055B299 /* YesVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = YesVideo.mp4; sourceTree = "<group>"; };
+		E413A99D275310000013A8A1 /* Yes.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Yes.mp4; sourceTree = "<group>"; };
+		E413A9A127531F0E0013A8A1 /* No.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = No.mp4; sourceTree = "<group>"; };
 		E4A049E12741EE6F00D3BE4A /* ImageDetectionAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageDetectionAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A049E42741EE6F00D3BE4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4A049E62741EE6F00D3BE4A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -59,7 +61,8 @@
 		E4A049E32741EE6F00D3BE4A /* ImageDetectionAR */ = {
 			isa = PBXGroup;
 			children = (
-				E45F1FF42741FA7B0055B299 /* YesVideo.mp4 */,
+				E413A9A127531F0E0013A8A1 /* No.mp4 */,
+				E413A99D275310000013A8A1 /* Yes.mp4 */,
 				E4A049E42741EE6F00D3BE4A /* AppDelegate.swift */,
 				E4A049E62741EE6F00D3BE4A /* art.scnassets */,
 				E4A049E82741EE6F00D3BE4A /* ViewController.swift */,
@@ -129,8 +132,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E413A99E275310010013A8A1 /* Yes.mp4 in Resources */,
 				E4A049F82741F63B00D3BE4A /* yesScene.sks in Resources */,
-				E45F1FF52741FA7B0055B299 /* YesVideo.mp4 in Resources */,
+				E413A9A227531F0E0013A8A1 /* No.mp4 in Resources */,
 				E4A049E72741EE6F00D3BE4A /* art.scnassets in Resources */,
 				E4A049F12741EE7700D3BE4A /* LaunchScreen.storyboard in Resources */,
 				E4A049EE2741EE7700D3BE4A /* Assets.xcassets in Resources */,

@@ -5,7 +5,10 @@
   },
   "resources" : [
     {
-      "filename" : "PrintAR_classic PCS.arreferenceimage"
+      "filename" : "No.arreferenceimage"
+    },
+    {
+      "filename" : "Yes.arreferenceimage"
     }
   ]
 }

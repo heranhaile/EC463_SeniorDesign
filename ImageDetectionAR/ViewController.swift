@@ -14,7 +14,8 @@ import SpriteKit
 class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
-    var videoNode:SKVideoNode!
+    
+    var videoNode:SCNNode!
     var videoPlayer:AVPlayer!
     
     override func viewDidLoad() {
@@ -39,6 +40,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Create a session configuration
         let configuration = ARImageTrackingConfiguration()
         
+        configuration.maximumNumberOfTrackedImages = 1 // set to detect 1 images at a time
+        
         guard let referenceImages = ARReferenceImage.referenceImages(inGroupNamed: "AR Resources", bundle: nil) else {return}
         
         configuration.trackingImages = referenceImages
@@ -57,6 +60,33 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
         
+        guard let validAnchor = anchor as? ARImageAnchor else { return }
+        
+        node.addChildNode(createVideoNodeFor(validAnchor.referenceImage))
+        
+        func createVideoNodeFor(_ target: ARReferenceImage) -> SCNNode {
+            
+            let videoPlayerNode = SCNNode()
+            
+            let videoPlayerGeometry = SCNPlane(width: target.physicalSize.width, height: target.physicalSize.height)
+            
+            var videoPlayer = AVPlayer()
+            
+            if let targetName = target.name,
+               let validURL = Bundle.main.url(forResource: targetName, withExtension: "mp4") {
+                videoPlayer = AVPlayer(url: validURL)
+                videoPlayer.play()
+            }
+            
+            videoPlayerGeometry.firstMaterial?.diffuse.contents = videoPlayer
+            videoPlayerNode.geometry = videoPlayerGeometry
+            
+            videoPlayerNode.eulerAngles.x = -.pi/2
+            
+            return videoPlayerNode
+        }
+        
+  /*
         guard anchor is ARImageAnchor else {return}
         
         //Container
@@ -69,7 +99,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         //Video
         
-        let videoURL = Bundle.main.url(forResource: "YesVideo", withExtension: "mp4")!
+        let videoURL = Bundle.main.url(forResource: "Yes", withExtension: "mp4")!
         
         videoPlayer = AVPlayer(url: videoURL)
         
@@ -84,21 +114,29 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         videoNode.yScale = -1
         
         videoNode.play()
+   */
         
+       /*
         videoScene.addChild(videoNode)
         
         guard let video = container.childNode(withName: "video", recursively: true) else {return}
         
         video.geometry?.firstMaterial?.diffuse.contents = videoScene
+        */
     
     }
+    
     func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
+        
         guard let imageAnchor = (anchor as? ARImageAnchor) else { return }
+        
         if imageAnchor.isTracked {
             videoNode.play()
         } else {
             videoPlayer.seek(to: CMTime.zero)
             videoNode.pause()
         }
+        
     }
+    
 }
