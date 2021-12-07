@@ -15,8 +15,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
     
-    var videoNode:SCNNode!
-    var videoPlayer:AVPlayer!
+ //   var videoNode:SCNNode!
+ //   var videoPlayer:AVPlayer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -125,7 +125,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         */
     
     }
-    
+/*
     func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
         
         guard let imageAnchor = (anchor as? ARImageAnchor) else { return }
@@ -138,5 +138,5 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         }
         
     }
-    
+*/
 }
