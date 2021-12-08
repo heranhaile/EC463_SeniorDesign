@@ -15,7 +15,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
     
- //   var videoNode:SCNNode!
+    var videoNode:SCNNode!
  //   var videoPlayer:AVPlayer!
     
     override func viewDidLoad() {
@@ -40,7 +40,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Create a session configuration
         let configuration = ARImageTrackingConfiguration()
         
-        configuration.maximumNumberOfTrackedImages = 1 // set to detect 1 images at a time
+        configuration.maximumNumberOfTrackedImages = 1 // set to detect 1 image at a time
         
         guard let referenceImages = ARReferenceImage.referenceImages(inGroupNamed: "AR Resources", bundle: nil) else {return}
         
@@ -62,9 +62,14 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         guard let validAnchor = anchor as? ARImageAnchor else { return }
         
-        node.addChildNode(createVideoNodeFor(validAnchor.referenceImage))
+        let videoCollection = createVideoNodeFor(validAnchor.referenceImage)
         
-        func createVideoNodeFor(_ target: ARReferenceImage) -> SCNNode {
+        videoNode = videoCollection.0
+ //       videoPlayer = videoCollection.1
+    
+        node.addChildNode(videoNode)
+        
+        func createVideoNodeFor(_ target: ARReferenceImage) -> (SCNNode,AVPlayer) { // function to add a video node to a reference image
             
             let videoPlayerNode = SCNNode()
             
@@ -83,7 +88,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             
             videoPlayerNode.eulerAngles.x = -.pi/2
             
-            return videoPlayerNode
+            return (videoPlayerNode,videoPlayer)
         }
         
   /*
@@ -130,13 +135,21 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         guard let imageAnchor = (anchor as? ARImageAnchor) else { return }
         
+        node.enumerateChildNodes { (childNode,_) in
+            childNode.removeFromParentNode()
+        }
+        
         if imageAnchor.isTracked {
-            videoNode.play()
+        //    videoPlayer.play()
+            
+            node.addChildNode(createVideoNodeFor(imageAnchor.referenceImage).0)
         } else {
-            videoPlayer.seek(to: CMTime.zero)
-            videoNode.pause()
+        //    videoPlayer.seek(to: CMTime.zero)
+        //    videoPlayer.pause()
+            return
         }
         
     }
 */
+
 }
