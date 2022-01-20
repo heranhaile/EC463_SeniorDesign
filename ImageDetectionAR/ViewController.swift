@@ -16,7 +16,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     @IBOutlet var sceneView: ARSCNView!
     
     var videoNode:SCNNode!
- //   var videoPlayer:AVPlayer!
+    var targetVideoPlayer:AVPlayer!
+    var playerDict: [String: AVPlayer] = [:]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,6 +59,28 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.session.pause()
     }
     
+    func createVideoNodeFor(_ target: ARReferenceImage) -> (SCNNode,AVPlayer) { // function to add a video node to a reference image
+        
+        let videoPlayerNode = SCNNode()
+        
+        let videoPlayerGeometry = SCNPlane(width: target.physicalSize.width, height: target.physicalSize.height)
+        
+        var videoPlayer = AVPlayer()
+        
+        if let targetName = target.name,
+           let validURL = Bundle.main.url(forResource: targetName, withExtension: "mp4") {
+            videoPlayer = AVPlayer(url: validURL)
+            playerDict[targetName] = videoPlayer
+        }
+        
+        videoPlayerGeometry.firstMaterial?.diffuse.contents = videoPlayer
+        videoPlayerNode.geometry = videoPlayerGeometry
+        
+        videoPlayerNode.eulerAngles.x = -.pi/2
+        targetVideoPlayer = videoPlayer
+        return (videoPlayerNode,videoPlayer)
+    }
+    
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
         
         guard let validAnchor = anchor as? ARImageAnchor else { return }
@@ -65,31 +88,10 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         let videoCollection = createVideoNodeFor(validAnchor.referenceImage)
         
         videoNode = videoCollection.0
- //       videoPlayer = videoCollection.1
     
         node.addChildNode(videoNode)
+        targetVideoPlayer.play()
         
-        func createVideoNodeFor(_ target: ARReferenceImage) -> (SCNNode,AVPlayer) { // function to add a video node to a reference image
-            
-            let videoPlayerNode = SCNNode()
-            
-            let videoPlayerGeometry = SCNPlane(width: target.physicalSize.width, height: target.physicalSize.height)
-            
-            var videoPlayer = AVPlayer()
-            
-            if let targetName = target.name,
-               let validURL = Bundle.main.url(forResource: targetName, withExtension: "mp4") {
-                videoPlayer = AVPlayer(url: validURL)
-                videoPlayer.play()
-            }
-            
-            videoPlayerGeometry.firstMaterial?.diffuse.contents = videoPlayer
-            videoPlayerNode.geometry = videoPlayerGeometry
-            
-            videoPlayerNode.eulerAngles.x = -.pi/2
-            
-            return (videoPlayerNode,videoPlayer)
-        }
         
   /*
         guard anchor is ARImageAnchor else {return}
@@ -130,26 +132,23 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         */
     
     }
-/*
-    func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
-        
-        guard let imageAnchor = (anchor as? ARImageAnchor) else { return }
-        
-        node.enumerateChildNodes { (childNode,_) in
-            childNode.removeFromParentNode()
-        }
-        
-        if imageAnchor.isTracked {
-        //    videoPlayer.play()
-            
-            node.addChildNode(createVideoNodeFor(imageAnchor.referenceImage).0)
+    func renderer(_ renderer: SCNSceneRenderer, willUpdate node: SCNNode, for anchor: ARAnchor) {
+        guard let validAnchor = anchor as? ARImageAnchor else { return }
+        let videoPlayer = playerDict[validAnchor.referenceImage.name!]!
+        if validAnchor.isTracked {
+            videoPlayer.play()
+            //node.addChildNode(createVideoNodeFor(imageAnchor.referenceImage).0)
         } else {
-        //    videoPlayer.seek(to: CMTime.zero)
-        //    videoPlayer.pause()
+            videoPlayer.seek(to: CMTime.zero)
+            videoPlayer.pause()
             return
         }
+    }
+
+    func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
+        
+        
         
     }
-*/
 
 }
