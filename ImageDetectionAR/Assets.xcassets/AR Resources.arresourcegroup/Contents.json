@@ -5,7 +5,25 @@
   },
   "resources" : [
     {
+      "filename" : "FAST.arreferenceimage"
+    },
+    {
+      "filename" : "GO.arreferenceimage"
+    },
+    {
+      "filename" : "IN.arreferenceimage"
+    },
+    {
       "filename" : "No.arreferenceimage"
+    },
+    {
+      "filename" : "OUT.arreferenceimage"
+    },
+    {
+      "filename" : "SLOW.arreferenceimage"
+    },
+    {
+      "filename" : "STOP.arreferenceimage"
     },
     {
       "filename" : "Where.arreferenceimage"
