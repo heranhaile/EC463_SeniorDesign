@@ -91,47 +91,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
         node.addChildNode(videoNode)
         targetVideoPlayer.play()
-        
-        
-  /*
-        guard anchor is ARImageAnchor else {return}
-        
-        //Container
-        
-        guard let container = sceneView.scene.rootNode.childNode(withName: "container", recursively: false) else {return}
-        
-        container.removeFromParentNode()
-        node.addChildNode(container) //connect to our reference image // videoScene will move around with the image
-        container.isHidden = false
-        
-        //Video
-        
-        let videoURL = Bundle.main.url(forResource: "Yes", withExtension: "mp4")!
-        
-        videoPlayer = AVPlayer(url: videoURL)
-        
-        let videoScene = SKScene(size: CGSize(width: 720, height: 1280))
-        
-        videoNode = SKVideoNode(avPlayer: videoPlayer)
-        
-        videoNode.position = CGPoint(x: videoScene.size.width/2, y: videoScene.size.height/2)
-        
-        videoNode.size = videoScene.size
-        
-        videoNode.yScale = -1
-        
-        videoNode.play()
-   */
-        
-       /*
-        videoScene.addChild(videoNode)
-        
-        guard let video = container.childNode(withName: "video", recursively: true) else {return}
-        
-        video.geometry?.firstMaterial?.diffuse.contents = videoScene
-        */
-    
     }
+    
     func renderer(_ renderer: SCNSceneRenderer, willUpdate node: SCNNode, for anchor: ARAnchor) {
         guard let validAnchor = anchor as? ARImageAnchor else { return }
         let videoPlayer = playerDict[validAnchor.referenceImage.name!]!
@@ -143,12 +104,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             videoPlayer.pause()
             return
         }
-    }
-
-    func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
-        
-        
-        
     }
 
 }
