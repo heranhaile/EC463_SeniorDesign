@@ -5,13 +5,28 @@
   },
   "resources" : [
     {
+      "filename" : "alldone.arreferenceimage"
+    },
+    {
+      "filename" : "bad.arreferenceimage"
+    },
+    {
+      "filename" : "bored.arreferenceimage"
+    },
+    {
       "filename" : "FAST.arreferenceimage"
     },
     {
       "filename" : "GO.arreferenceimage"
     },
     {
+      "filename" : "good.arreferenceimage"
+    },
+    {
       "filename" : "IN.arreferenceimage"
+    },
+    {
+      "filename" : "look.arreferenceimage"
     },
     {
       "filename" : "No.arreferenceimage"
