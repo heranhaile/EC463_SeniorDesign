@@ -84,7 +84,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
         
         guard let validAnchor = anchor as? ARImageAnchor else { return }
-        
+        print("created!")
         let videoCollection = createVideoNodeFor(validAnchor.referenceImage)
         
         videoNode = videoCollection.0
