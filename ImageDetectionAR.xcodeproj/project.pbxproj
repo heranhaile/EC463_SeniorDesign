@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		180294D627A33310001DE2B9 /* Yes.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180294D527A33310001DE2B9 /* Yes.mp4 */; };
 		183CC09227AB7F7D009FCD1C /* Same.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 183CC09127AB7F7D009FCD1C /* Same.mp4 */; };
 		183CC09727AB92F7009FCD1C /* When.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 183CC09327AB92F7009FCD1C /* When.mp4 */; };
 		183CC09827AB92F7009FCD1C /* No.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 183CC09427AB92F7009FCD1C /* No.mp4 */; };
@@ -19,10 +18,10 @@
 		E4A049EC2741EE6F00D3BE4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A049EA2741EE6F00D3BE4A /* Main.storyboard */; };
 		E4A049EE2741EE7700D3BE4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A049ED2741EE7700D3BE4A /* Assets.xcassets */; };
 		E4A049F12741EE7700D3BE4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A049EF2741EE7700D3BE4A /* LaunchScreen.storyboard */; };
+		E4DFE1F727B1FB86008BEA08 /* Yes.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4DFE1F627B1FB86008BEA08 /* Yes.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		180294D527A33310001DE2B9 /* Yes.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Yes.mp4; sourceTree = "<group>"; };
 		183CC09127AB7F7D009FCD1C /* Same.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Same.mp4; sourceTree = "<group>"; };
 		183CC09327AB92F7009FCD1C /* When.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = When.mp4; sourceTree = "<group>"; };
 		183CC09427AB92F7009FCD1C /* No.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = No.mp4; sourceTree = "<group>"; };
@@ -35,6 +34,7 @@
 		E4A049EB2741EE6F00D3BE4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4A049ED2741EE7700D3BE4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4A049F02741EE7700D3BE4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4DFE1F627B1FB86008BEA08 /* Yes.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Yes.mp4; path = ../../../../Desktop/videos/Yes.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,12 +67,12 @@
 		E4A049E32741EE6F00D3BE4A /* ImageDetectionAR */ = {
 			isa = PBXGroup;
 			children = (
-				180294D527A33310001DE2B9 /* Yes.mp4 */,
-				183CC09127AB7F7D009FCD1C /* Same.mp4 */,
+				E4DFE1F627B1FB86008BEA08 /* Yes.mp4 */,
 				183CC09427AB92F7009FCD1C /* No.mp4 */,
+				183CC09627AB92F7009FCD1C /* Who.mp4 */,
 				183CC09327AB92F7009FCD1C /* When.mp4 */,
 				183CC09B27AB95F0009FCD1C /* Where.mp4 */,
-				183CC09627AB92F7009FCD1C /* Who.mp4 */,
+				183CC09127AB7F7D009FCD1C /* Same.mp4 */,
 				E4A049E42741EE6F00D3BE4A /* AppDelegate.swift */,
 				E4A049E62741EE6F00D3BE4A /* art.scnassets */,
 				E4A049E82741EE6F00D3BE4A /* ViewController.swift */,
@@ -143,12 +143,12 @@
 			files = (
 				183CC09A27AB92F7009FCD1C /* Who.mp4 in Resources */,
 				183CC09827AB92F7009FCD1C /* No.mp4 in Resources */,
-				180294D627A33310001DE2B9 /* Yes.mp4 in Resources */,
 				E4A049E72741EE6F00D3BE4A /* art.scnassets in Resources */,
 				E4A049F12741EE7700D3BE4A /* LaunchScreen.storyboard in Resources */,
 				E4A049EE2741EE7700D3BE4A /* Assets.xcassets in Resources */,
 				183CC09227AB7F7D009FCD1C /* Same.mp4 in Resources */,
 				E4A049EC2741EE6F00D3BE4A /* Main.storyboard in Resources */,
+				E4DFE1F727B1FB86008BEA08 /* Yes.mp4 in Resources */,
 				183CC09727AB92F7009FCD1C /* When.mp4 in Resources */,
 				183CC09C27AB95F0009FCD1C /* Where.mp4 in Resources */,
 			);
@@ -312,7 +312,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZP5M897P2L;
+				DEVELOPMENT_TEAM = GW56879RGX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -327,7 +327,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = YuwenUpda;
+				PRODUCT_BUNDLE_IDENTIFIER = YuwenUpdate.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -344,7 +344,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZP5M897P2L;
+				DEVELOPMENT_TEAM = GW56879RGX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -359,7 +359,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = YuwenUpda;
+				PRODUCT_BUNDLE_IDENTIFIER = YuwenUpdate.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
