@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "Look.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 0.13375000000000001
+  }
+}

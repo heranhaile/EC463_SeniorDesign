@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "Hi.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 0.12583586626139817
+  }
+}

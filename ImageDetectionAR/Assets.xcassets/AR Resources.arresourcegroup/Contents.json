@@ -5,10 +5,34 @@
   },
   "resources" : [
     {
+      "filename" : "Bathroom.arreferenceimage"
+    },
+    {
+      "filename" : "Hi.arreferenceimage"
+    },
+    {
+      "filename" : "Look.arreferenceimage"
+    },
+    {
       "filename" : "No.arreferenceimage"
     },
     {
+      "filename" : "Outside.arreferenceimage"
+    },
+    {
+      "filename" : "Same.arreferenceimage"
+    },
+    {
+      "filename" : "What.arreferenceimage"
+    },
+    {
+      "filename" : "When.arreferenceimage"
+    },
+    {
       "filename" : "Where.arreferenceimage"
+    },
+    {
+      "filename" : "Who.arreferenceimage"
     },
     {
       "filename" : "Yes.arreferenceimage"

@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "Outside.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 0.14220532319391635
+  }
+}
