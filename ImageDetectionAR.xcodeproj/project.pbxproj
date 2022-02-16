@@ -29,13 +29,13 @@
 		E41C135027BB4218003B6B2D /* When.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = When.mp4; sourceTree = "<group>"; };
 		E41C135227BB44C4003B6B2D /* Same.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Same.mp4; sourceTree = "<group>"; };
 		E41C135627BB47E3003B6B2D /* Who.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Who.mp4; sourceTree = "<group>"; };
-		E41C135827BB4817003B6B2D /* Yes.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Yes.mp4; path = ../../../../Desktop/videos/Used/Yes.mp4; sourceTree = "<group>"; };
-		E41C135A27BB481E003B6B2D /* No.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = No.mp4; path = ../../../../Desktop/videos/Used/No.mp4; sourceTree = "<group>"; };
+		E41C135827BB4817003B6B2D /* Yes.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Yes.mp4; sourceTree = "<group>"; };
+		E41C135A27BB481E003B6B2D /* No.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = No.mp4; sourceTree = "<group>"; };
 		E41C135C27BB4AEB003B6B2D /* Bathroom.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bathroom.mp4; sourceTree = "<group>"; };
 		E41C135E27BB4AF2003B6B2D /* Hi.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hi.mp4; sourceTree = "<group>"; };
 		E41C136027BB4AF8003B6B2D /* Look.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Look.mp4; sourceTree = "<group>"; };
 		E41C136227BB4AFE003B6B2D /* Outside.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Outside.mp4; sourceTree = "<group>"; };
-		E41C136427BB4B17003B6B2D /* Where.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Where.mp4; path = ../../../../Desktop/videos/Used/Where.mp4; sourceTree = "<group>"; };
+		E41C136427BB4B17003B6B2D /* Where.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Where.mp4; sourceTree = "<group>"; };
 		E4A049E12741EE6F00D3BE4A /* ImageDetectionAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageDetectionAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A049E42741EE6F00D3BE4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4A049E62741EE6F00D3BE4A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
