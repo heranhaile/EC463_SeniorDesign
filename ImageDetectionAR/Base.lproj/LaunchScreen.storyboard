@@ -37,6 +37,7 @@
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
                             <constraint firstItem="dqh-Ny-3Gx" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-130" id="jJK-IQ-COi"/>
+                            <constraint firstItem="dqh-Ny-3Gx" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-130" id="mzC-Q5-jK7"/>
                             <constraint firstItem="Ae7-Og-Sh1" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="130" id="vjs-3p-0qd"/>
                         </constraints>
                     </view>
