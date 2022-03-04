@@ -18,7 +18,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     var videoNode:SCNNode!
     var targetVideoPlayer:AVPlayer!
     var playerDict: [String: AVPlayer] = [:]
-    var configuration = ARWorldTrackingConfiguration() //delete
+//    var configuration = ARWorldTrackingConfiguration() //delete
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -149,6 +149,14 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     func restartSessionWithoutDelete() {
         // Restart session with a different worldAlignment - prevents bug from crashing app
         self.sceneView.session.pause()
+        
+        let configuration = ARImageTrackingConfiguration()
+        
+        configuration.maximumNumberOfTrackedImages = 1 // set to detect 1 image at a time
+        
+        guard let referenceImages = ARReferenceImage.referenceImages(inGroupNamed: "AR Resources", bundle: nil) else {return}
+        
+        configuration.trackingImages = referenceImages
 
         self.sceneView.session.run(configuration, options: [
             .resetTracking,
@@ -157,14 +165,14 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
     func session(_ session: ARSession, didFailWithError error: Error) {
         // Present an error message to the user
-        print("Session failed. Changing worldAlignment property.")
+        print("Session failed.")
         print(error.localizedDescription)
 
         if let arError = error as? ARError {
             switch arError.errorCode {
-            case 102:
-                configuration.worldAlignment = .gravity
-                restartSessionWithoutDelete()
+//            case 102:
+//                configuration.worldAlignment = .gravity
+//                restartSessionWithoutDelete()
             default:
                 restartSessionWithoutDelete()
             }
