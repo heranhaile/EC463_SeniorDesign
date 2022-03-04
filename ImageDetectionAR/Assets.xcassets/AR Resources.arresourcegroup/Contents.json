@@ -5,10 +5,28 @@
   },
   "resources" : [
     {
+      "filename" : "Bad.arreferenceimage"
+    },
+    {
       "filename" : "Bathroom.arreferenceimage"
     },
     {
+      "filename" : "Close.arreferenceimage"
+    },
+    {
+      "filename" : "Cloudy.arreferenceimage"
+    },
+    {
+      "filename" : "Funny.arreferenceimage"
+    },
+    {
+      "filename" : "Good.arreferenceimage"
+    },
+    {
       "filename" : "Hi.arreferenceimage"
+    },
+    {
+      "filename" : "I.arreferenceimage"
     },
     {
       "filename" : "Look.arreferenceimage"
@@ -17,10 +35,19 @@
       "filename" : "No.arreferenceimage"
     },
     {
+      "filename" : "Open.arreferenceimage"
+    },
+    {
       "filename" : "Outside.arreferenceimage"
     },
     {
       "filename" : "Same.arreferenceimage"
+    },
+    {
+      "filename" : "Snowy.arreferenceimage"
+    },
+    {
+      "filename" : "Sunny.arreferenceimage"
     },
     {
       "filename" : "What.arreferenceimage"
@@ -36,6 +63,9 @@
     },
     {
       "filename" : "Yes.arreferenceimage"
+    },
+    {
+      "filename" : "You.arreferenceimage"
     }
   ]
 }

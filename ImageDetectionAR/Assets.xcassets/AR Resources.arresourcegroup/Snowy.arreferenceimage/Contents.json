@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "Snowy.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 0.14123711340206188
+  }
+}

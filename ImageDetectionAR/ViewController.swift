@@ -18,6 +18,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     var videoNode:SCNNode!
     var targetVideoPlayer:AVPlayer!
     var playerDict: [String: AVPlayer] = [:]
+    var configuration = ARWorldTrackingConfiguration() //delete
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -144,11 +145,30 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             return
         }
     }
+    
+    func restartSessionWithoutDelete() {
+        // Restart session with a different worldAlignment - prevents bug from crashing app
+        self.sceneView.session.pause()
 
-    func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
-        
-        
-        
+        self.sceneView.session.run(configuration, options: [
+            .resetTracking,
+            .removeExistingAnchors])
     }
 
+    func session(_ session: ARSession, didFailWithError error: Error) {
+        // Present an error message to the user
+        print("Session failed. Changing worldAlignment property.")
+        print(error.localizedDescription)
+
+        if let arError = error as? ARError {
+            switch arError.errorCode {
+            case 102:
+                configuration.worldAlignment = .gravity
+                restartSessionWithoutDelete()
+            default:
+                restartSessionWithoutDelete()
+            }
+        }
+    }
+    
 }

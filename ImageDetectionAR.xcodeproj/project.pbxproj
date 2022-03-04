@@ -23,6 +23,17 @@
 		E4A049EC2741EE6F00D3BE4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A049EA2741EE6F00D3BE4A /* Main.storyboard */; };
 		E4A049EE2741EE7700D3BE4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A049ED2741EE7700D3BE4A /* Assets.xcassets */; };
 		E4A049F12741EE7700D3BE4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A049EF2741EE7700D3BE4A /* LaunchScreen.storyboard */; };
+		E4A13C0127D1A39300D1FB31 /* What.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4A13C0027D1A39300D1FB31 /* What.mp4 */; };
+		E4A13C0D27D1AB0D00D1FB31 /* You.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4A13C0327D1AB0A00D1FB31 /* You.mp4 */; };
+		E4A13C0E27D1AB0D00D1FB31 /* Funny.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4A13C0427D1AB0B00D1FB31 /* Funny.mp4 */; };
+		E4A13C0F27D1AB0D00D1FB31 /* Snowy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4A13C0527D1AB0B00D1FB31 /* Snowy.mp4 */; };
+		E4A13C1027D1AB0D00D1FB31 /* Bad.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4A13C0627D1AB0B00D1FB31 /* Bad.mp4 */; };
+		E4A13C1127D1AB0D00D1FB31 /* Cloudy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4A13C0727D1AB0C00D1FB31 /* Cloudy.mp4 */; };
+		E4A13C1227D1AB0D00D1FB31 /* Good.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4A13C0827D1AB0C00D1FB31 /* Good.mp4 */; };
+		E4A13C1327D1AB0D00D1FB31 /* I.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4A13C0927D1AB0C00D1FB31 /* I.mp4 */; };
+		E4A13C1427D1AB0D00D1FB31 /* Close.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4A13C0A27D1AB0D00D1FB31 /* Close.mp4 */; };
+		E4A13C1527D1AB0D00D1FB31 /* Open.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4A13C0B27D1AB0D00D1FB31 /* Open.mp4 */; };
+		E4A13C1727D1AEFA00D1FB31 /* Sunny.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4A13C1627D1AEFA00D1FB31 /* Sunny.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +54,17 @@
 		E4A049EB2741EE6F00D3BE4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4A049ED2741EE7700D3BE4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4A049F02741EE7700D3BE4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4A13C0027D1A39300D1FB31 /* What.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = What.mp4; sourceTree = "<group>"; };
+		E4A13C0327D1AB0A00D1FB31 /* You.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = You.mp4; sourceTree = "<group>"; };
+		E4A13C0427D1AB0B00D1FB31 /* Funny.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Funny.mp4; sourceTree = "<group>"; };
+		E4A13C0527D1AB0B00D1FB31 /* Snowy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Snowy.mp4; sourceTree = "<group>"; };
+		E4A13C0627D1AB0B00D1FB31 /* Bad.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bad.mp4; sourceTree = "<group>"; };
+		E4A13C0727D1AB0C00D1FB31 /* Cloudy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cloudy.mp4; sourceTree = "<group>"; };
+		E4A13C0827D1AB0C00D1FB31 /* Good.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Good.mp4; sourceTree = "<group>"; };
+		E4A13C0927D1AB0C00D1FB31 /* I.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = I.mp4; sourceTree = "<group>"; };
+		E4A13C0A27D1AB0D00D1FB31 /* Close.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Close.mp4; sourceTree = "<group>"; };
+		E4A13C0B27D1AB0D00D1FB31 /* Open.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Open.mp4; sourceTree = "<group>"; };
+		E4A13C1627D1AEFA00D1FB31 /* Sunny.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sunny.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +97,21 @@
 		E4A049E32741EE6F00D3BE4A /* ImageDetectionAR */ = {
 			isa = PBXGroup;
 			children = (
+				E4A13C0627D1AB0B00D1FB31 /* Bad.mp4 */,
+				E4A13C0A27D1AB0D00D1FB31 /* Close.mp4 */,
+				E4A13C0727D1AB0C00D1FB31 /* Cloudy.mp4 */,
+				E4A13C0427D1AB0B00D1FB31 /* Funny.mp4 */,
+				E4A13C0827D1AB0C00D1FB31 /* Good.mp4 */,
+				E4A13C0927D1AB0C00D1FB31 /* I.mp4 */,
+				E4A13C0B27D1AB0D00D1FB31 /* Open.mp4 */,
+				E4A13C0527D1AB0B00D1FB31 /* Snowy.mp4 */,
+				E4A13C0327D1AB0A00D1FB31 /* You.mp4 */,
 				E41C136227BB4AFE003B6B2D /* Outside.mp4 */,
+				E4A13C1627D1AEFA00D1FB31 /* Sunny.mp4 */,
 				E41C136027BB4AF8003B6B2D /* Look.mp4 */,
 				E41C135E27BB4AF2003B6B2D /* Hi.mp4 */,
 				E41C135C27BB4AEB003B6B2D /* Bathroom.mp4 */,
+				E4A13C0027D1A39300D1FB31 /* What.mp4 */,
 				E41C135627BB47E3003B6B2D /* Who.mp4 */,
 				E41C135827BB4817003B6B2D /* Yes.mp4 */,
 				E41C135227BB44C4003B6B2D /* Same.mp4 */,
@@ -153,20 +186,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4A13C1227D1AB0D00D1FB31 /* Good.mp4 in Resources */,
 				E41C135127BB4218003B6B2D /* When.mp4 in Resources */,
 				E41C135D27BB4AEB003B6B2D /* Bathroom.mp4 in Resources */,
 				E41C136127BB4AF8003B6B2D /* Look.mp4 in Resources */,
 				E41C135727BB47E3003B6B2D /* Who.mp4 in Resources */,
 				E4A049E72741EE6F00D3BE4A /* art.scnassets in Resources */,
 				E41C136327BB4AFE003B6B2D /* Outside.mp4 in Resources */,
+				E4A13C1727D1AEFA00D1FB31 /* Sunny.mp4 in Resources */,
 				E4A049F12741EE7700D3BE4A /* LaunchScreen.storyboard in Resources */,
 				E41C135F27BB4AF2003B6B2D /* Hi.mp4 in Resources */,
 				E41C135327BB44C4003B6B2D /* Same.mp4 in Resources */,
 				E4A049EE2741EE7700D3BE4A /* Assets.xcassets in Resources */,
+				E4A13C0D27D1AB0D00D1FB31 /* You.mp4 in Resources */,
 				E41C135927BB4817003B6B2D /* Yes.mp4 in Resources */,
+				E4A13C0E27D1AB0D00D1FB31 /* Funny.mp4 in Resources */,
+				E4A13C1527D1AB0D00D1FB31 /* Open.mp4 in Resources */,
+				E4A13C1327D1AB0D00D1FB31 /* I.mp4 in Resources */,
+				E4A13C1127D1AB0D00D1FB31 /* Cloudy.mp4 in Resources */,
 				E41C135B27BB481E003B6B2D /* No.mp4 in Resources */,
+				E4A13C0F27D1AB0D00D1FB31 /* Snowy.mp4 in Resources */,
 				E4A049EC2741EE6F00D3BE4A /* Main.storyboard in Resources */,
+				E4A13C1027D1AB0D00D1FB31 /* Bad.mp4 in Resources */,
 				E41C136527BB4B17003B6B2D /* Where.mp4 in Resources */,
+				E4A13C1427D1AB0D00D1FB31 /* Close.mp4 in Resources */,
+				E4A13C0127D1A39300D1FB31 /* What.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +371,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8745G2SY37;
+				DEVELOPMENT_TEAM = GW56879RGX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -342,7 +386,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Wenting-Yu.ImageDetectionAR.1";
+				PRODUCT_BUNDLE_IDENTIFIER = "Wenting-Yu.ImageDetectionAR.2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -357,7 +401,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8745G2SY37;
+				DEVELOPMENT_TEAM = GW56879RGX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -372,7 +416,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Wenting-Yu.ImageDetectionAR.1";
+				PRODUCT_BUNDLE_IDENTIFIER = "Wenting-Yu.ImageDetectionAR.2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

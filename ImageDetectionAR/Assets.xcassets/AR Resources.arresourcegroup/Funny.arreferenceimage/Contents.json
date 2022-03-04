@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "Funny.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 0.13347280334728034
+  }
+}
