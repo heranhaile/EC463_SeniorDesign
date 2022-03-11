@@ -92,53 +92,64 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
         node.addChildNode(videoNode)
         targetVideoPlayer.play()
+        targetVideoPlayer.actionAtItemEnd = .none
         
         
-  /*
-        guard anchor is ARImageAnchor else {return}
-        
-        //Container
-        
-        guard let container = sceneView.scene.rootNode.childNode(withName: "container", recursively: false) else {return}
-        
-        container.removeFromParentNode()
-        node.addChildNode(container) //connect to our reference image // videoScene will move around with the image
-        container.isHidden = false
-        
-        //Video
-        
-        let videoURL = Bundle.main.url(forResource: "Yes", withExtension: "mp4")!
-        
-        videoPlayer = AVPlayer(url: videoURL)
-        
-        let videoScene = SKScene(size: CGSize(width: 720, height: 1280))
-        
-        videoNode = SKVideoNode(avPlayer: videoPlayer)
-        
-        videoNode.position = CGPoint(x: videoScene.size.width/2, y: videoScene.size.height/2)
-        
-        videoNode.size = videoScene.size
-        
-        videoNode.yScale = -1
-        
-        videoNode.play()
-   */
-        
-       /*
-        videoScene.addChild(videoNode)
-        
-        guard let video = container.childNode(withName: "video", recursively: true) else {return}
-        
-        video.geometry?.firstMaterial?.diffuse.contents = videoScene
-        */
-    
+         /*
+               guard anchor is ARImageAnchor else {return}
+               
+               //Container
+               
+               guard let container = sceneView.scene.rootNode.childNode(withName: "container", recursively: false) else {return}
+               
+               container.removeFromParentNode()
+               node.addChildNode(container) //connect to our reference image // videoScene will move around with the image
+               container.isHidden = false
+               
+               //Video
+               
+               let videoURL = Bundle.main.url(forResource: "Yes", withExtension: "mp4")!
+               
+               videoPlayer = AVPlayer(url: videoURL)
+               
+               let videoScene = SKScene(size: CGSize(width: 720, height: 1280))
+               
+               videoNode = SKVideoNode(avPlayer: videoPlayer)
+               
+               videoNode.position = CGPoint(x: videoScene.size.width/2, y: videoScene.size.height/2)
+               
+               videoNode.size = videoScene.size
+               
+               videoNode.yScale = -1
+               
+               videoNode.play()
+          */
+               
+              /*
+               videoScene.addChild(videoNode)
+               
+               guard let video = container.childNode(withName: "video", recursively: true) else {return}
+               
+               video.geometry?.firstMaterial?.diffuse.contents = videoScene
+               */
+    }
+    @objc func playedToEnd(noti: NSNotification){
     }
     func renderer(_ renderer: SCNSceneRenderer, willUpdate node: SCNNode, for anchor: ARAnchor) {
         guard let validAnchor = anchor as? ARImageAnchor else { return }
         let videoPlayer = playerDict[validAnchor.referenceImage.name!]!
         if validAnchor.isTracked {
             videoPlayer.play()
+            if(videoPlayer.currentItem?.asset.duration == videoPlayer.currentTime()){
+                videoPlayer.seek(to: CMTime.zero)
+            }
             //node.addChildNode(createVideoNodeFor(imageAnchor.referenceImage).0)
+            /*NotificationCenter.default.addObserver(
+                self,
+                selector: #selector(playedToEnd),
+                name: NSNotification.Name.AVPlayerItemDidPlayToEndTime,
+                object: nil
+            )*/
         } else {
             videoPlayer.seek(to: CMTime.zero)
             videoPlayer.pause()
