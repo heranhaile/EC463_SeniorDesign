@@ -18,7 +18,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     var videoNode:SCNNode!
     var targetVideoPlayer:AVPlayer!
     var playerDict: [String: AVPlayer] = [:]
-//    var configuration = ARWorldTrackingConfiguration() //delete
+    var configuration = ARWorldTrackingConfiguration()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -93,48 +93,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         node.addChildNode(videoNode)
         targetVideoPlayer.play()
         targetVideoPlayer.actionAtItemEnd = .none
-        
-        
-         /*
-               guard anchor is ARImageAnchor else {return}
-               
-               //Container
-               
-               guard let container = sceneView.scene.rootNode.childNode(withName: "container", recursively: false) else {return}
-               
-               container.removeFromParentNode()
-               node.addChildNode(container) //connect to our reference image // videoScene will move around with the image
-               container.isHidden = false
-               
-               //Video
-               
-               let videoURL = Bundle.main.url(forResource: "Yes", withExtension: "mp4")!
-               
-               videoPlayer = AVPlayer(url: videoURL)
-               
-               let videoScene = SKScene(size: CGSize(width: 720, height: 1280))
-               
-               videoNode = SKVideoNode(avPlayer: videoPlayer)
-               
-               videoNode.position = CGPoint(x: videoScene.size.width/2, y: videoScene.size.height/2)
-               
-               videoNode.size = videoScene.size
-               
-               videoNode.yScale = -1
-               
-               videoNode.play()
-          */
-               
-              /*
-               videoScene.addChild(videoNode)
-               
-               guard let video = container.childNode(withName: "video", recursively: true) else {return}
-               
-               video.geometry?.firstMaterial?.diffuse.contents = videoScene
-               */
     }
+    
     @objc func playedToEnd(noti: NSNotification){
     }
+    
     func renderer(_ renderer: SCNSceneRenderer, willUpdate node: SCNNode, for anchor: ARAnchor) {
         guard let validAnchor = anchor as? ARImageAnchor else { return }
         let videoPlayer = playerDict[validAnchor.referenceImage.name!]!
@@ -157,8 +120,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         }
     }
     
-    func restartSessionWithoutDelete() {
-        // Restart session with a different worldAlignment - prevents bug from crashing app
+    func restartSessionWithoutDelete() { //reset image detection
         self.sceneView.session.pause()
         
         let configuration = ARImageTrackingConfiguration()
@@ -174,16 +136,15 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             .removeExistingAnchors])
     }
 
-    func session(_ session: ARSession, didFailWithError error: Error) {
-        // Present an error message to the user
+    func session(_ session: ARSession, didFailWithError error: Error) { //detects error
         print("Session failed.")
         print(error.localizedDescription)
 
         if let arError = error as? ARError {
             switch arError.errorCode {
-//            case 102:
-//                configuration.worldAlignment = .gravity
-//                restartSessionWithoutDelete()
+            case 102:
+                configuration.worldAlignment = .gravity
+                restartSessionWithoutDelete()
             default:
                 restartSessionWithoutDelete()
             }
