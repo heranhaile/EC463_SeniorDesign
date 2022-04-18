@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "Leavemealone.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 0.12836879432624113
+  }
+}

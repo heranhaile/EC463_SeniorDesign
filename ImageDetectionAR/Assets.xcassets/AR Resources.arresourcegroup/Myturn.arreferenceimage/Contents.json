@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "Myturn.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 0.13630136986301369
+  }
+}

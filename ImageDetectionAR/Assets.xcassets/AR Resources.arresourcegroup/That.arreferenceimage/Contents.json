@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "That.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 0.11499999999999999
+  }
+}

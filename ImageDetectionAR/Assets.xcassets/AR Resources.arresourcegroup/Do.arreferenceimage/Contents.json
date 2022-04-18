@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "Do.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 0.14075630252100843
+  }
+}

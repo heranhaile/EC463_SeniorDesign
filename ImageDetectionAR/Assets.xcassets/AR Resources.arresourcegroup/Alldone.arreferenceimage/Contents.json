@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "Alldone.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 0.14202334630350197
+  }
+}

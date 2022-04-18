@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "Sensory.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 0.12781456953642387
+  }
+}

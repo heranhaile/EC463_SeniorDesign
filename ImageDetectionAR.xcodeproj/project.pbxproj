@@ -49,6 +49,34 @@
 		E4D3B5D4280DE383002723F1 /* Lesson.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5C7280DE383002723F1 /* Lesson.mp4 */; };
 		E4D3B5D5280DE383002723F1 /* Play.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5C8280DE383002723F1 /* Play.mp4 */; };
 		E4D3B5D6280DE383002723F1 /* Pretty.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5C9280DE383002723F1 /* Pretty.mp4 */; };
+		E4D3B5F3280E0D86002723F1 /* Do.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5D7280E0D7C002723F1 /* Do.mp4 */; };
+		E4D3B5F4280E0D86002723F1 /* Leavemealone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5D8280E0D7C002723F1 /* Leavemealone.mp4 */; };
+		E4D3B5F5280E0D86002723F1 /* Ask.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5D9280E0D7D002723F1 /* Ask.mp4 */; };
+		E4D3B5F6280E0D86002723F1 /* Break.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5DA280E0D7D002723F1 /* Break.mp4 */; };
+		E4D3B5F7280E0D86002723F1 /* Myturn.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5DB280E0D7D002723F1 /* Myturn.mp4 */; };
+		E4D3B5F8280E0D86002723F1 /* Fast.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5DC280E0D7E002723F1 /* Fast.mp4 */; };
+		E4D3B5F9280E0D86002723F1 /* Can.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5DD280E0D7E002723F1 /* Can.mp4 */; };
+		E4D3B5FA280E0D86002723F1 /* Like.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5DE280E0D7E002723F1 /* Like.mp4 */; };
+		E4D3B5FB280E0D86002723F1 /* Have.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5DF280E0D7E002723F1 /* Have.mp4 */; };
+		E4D3B5FC280E0D86002723F1 /* Ready.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5E0280E0D7F002723F1 /* Ready.mp4 */; };
+		E4D3B5FD280E0D86002723F1 /* Help.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5E1280E0D7F002723F1 /* Help.mp4 */; };
+		E4D3B5FE280E0D86002723F1 /* Mine.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5E2280E0D7F002723F1 /* Mine.mp4 */; };
+		E4D3B5FF280E0D86002723F1 /* Need.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5E3280E0D80002723F1 /* Need.mp4 */; };
+		E4D3B600280E0D86002723F1 /* More.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5E4280E0D80002723F1 /* More.mp4 */; };
+		E4D3B601280E0D86002723F1 /* Not.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5E5280E0D80002723F1 /* Not.mp4 */; };
+		E4D3B602280E0D86002723F1 /* Again.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5E6280E0D81002723F1 /* Again.mp4 */; };
+		E4D3B603280E0D86002723F1 /* Slow.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5E7280E0D81002723F1 /* Slow.mp4 */; };
+		E4D3B604280E0D86002723F1 /* Somethingdifferent.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5E8280E0D81002723F1 /* Somethingdifferent.mp4 */; };
+		E4D3B605280E0D86002723F1 /* That.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5E9280E0D82002723F1 /* That.mp4 */; };
+		E4D3B606280E0D86002723F1 /* It.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5EA280E0D82002723F1 /* It.mp4 */; };
+		E4D3B607280E0D86002723F1 /* Getoutofchair.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5EB280E0D83002723F1 /* Getoutofchair.mp4 */; };
+		E4D3B608280E0D86002723F1 /* Stop.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5EC280E0D83002723F1 /* Stop.mp4 */; };
+		E4D3B609280E0D86002723F1 /* Alldone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5ED280E0D83002723F1 /* Alldone.mp4 */; };
+		E4D3B60A280E0D86002723F1 /* Sensory.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5EE280E0D84002723F1 /* Sensory.mp4 */; };
+		E4D3B60B280E0D86002723F1 /* Go.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5EF280E0D84002723F1 /* Go.mp4 */; };
+		E4D3B60C280E0D86002723F1 /* Excuseme.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5F0280E0D85002723F1 /* Excuseme.mp4 */; };
+		E4D3B60D280E0D86002723F1 /* Big.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5F1280E0D85002723F1 /* Big.mp4 */; };
+		E4D3B60E280E0D86002723F1 /* Little.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5F2280E0D86002723F1 /* Little.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +123,34 @@
 		E4D3B5C7280DE383002723F1 /* Lesson.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Lesson.mp4; path = ../../../../Desktop/PrintAR_Images/videos/Used/Lesson.mp4; sourceTree = "<group>"; };
 		E4D3B5C8280DE383002723F1 /* Play.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Play.mp4; path = ../../../../Desktop/PrintAR_Images/videos/Used/Play.mp4; sourceTree = "<group>"; };
 		E4D3B5C9280DE383002723F1 /* Pretty.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Pretty.mp4; path = ../../../../Desktop/PrintAR_Images/videos/Used/Pretty.mp4; sourceTree = "<group>"; };
+		E4D3B5D7280E0D7C002723F1 /* Do.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Do.mp4; sourceTree = "<group>"; };
+		E4D3B5D8280E0D7C002723F1 /* Leavemealone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Leavemealone.mp4; sourceTree = "<group>"; };
+		E4D3B5D9280E0D7D002723F1 /* Ask.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ask.mp4; sourceTree = "<group>"; };
+		E4D3B5DA280E0D7D002723F1 /* Break.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Break.mp4; sourceTree = "<group>"; };
+		E4D3B5DB280E0D7D002723F1 /* Myturn.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Myturn.mp4; sourceTree = "<group>"; };
+		E4D3B5DC280E0D7E002723F1 /* Fast.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fast.mp4; sourceTree = "<group>"; };
+		E4D3B5DD280E0D7E002723F1 /* Can.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Can.mp4; sourceTree = "<group>"; };
+		E4D3B5DE280E0D7E002723F1 /* Like.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Like.mp4; sourceTree = "<group>"; };
+		E4D3B5DF280E0D7E002723F1 /* Have.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Have.mp4; sourceTree = "<group>"; };
+		E4D3B5E0280E0D7F002723F1 /* Ready.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ready.mp4; sourceTree = "<group>"; };
+		E4D3B5E1280E0D7F002723F1 /* Help.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Help.mp4; sourceTree = "<group>"; };
+		E4D3B5E2280E0D7F002723F1 /* Mine.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mine.mp4; sourceTree = "<group>"; };
+		E4D3B5E3280E0D80002723F1 /* Need.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Need.mp4; sourceTree = "<group>"; };
+		E4D3B5E4280E0D80002723F1 /* More.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = More.mp4; sourceTree = "<group>"; };
+		E4D3B5E5280E0D80002723F1 /* Not.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Not.mp4; sourceTree = "<group>"; };
+		E4D3B5E6280E0D81002723F1 /* Again.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Again.mp4; sourceTree = "<group>"; };
+		E4D3B5E7280E0D81002723F1 /* Slow.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Slow.mp4; sourceTree = "<group>"; };
+		E4D3B5E8280E0D81002723F1 /* Somethingdifferent.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Somethingdifferent.mp4; sourceTree = "<group>"; };
+		E4D3B5E9280E0D82002723F1 /* That.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = That.mp4; sourceTree = "<group>"; };
+		E4D3B5EA280E0D82002723F1 /* It.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = It.mp4; sourceTree = "<group>"; };
+		E4D3B5EB280E0D83002723F1 /* Getoutofchair.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Getoutofchair.mp4; sourceTree = "<group>"; };
+		E4D3B5EC280E0D83002723F1 /* Stop.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stop.mp4; sourceTree = "<group>"; };
+		E4D3B5ED280E0D83002723F1 /* Alldone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Alldone.mp4; sourceTree = "<group>"; };
+		E4D3B5EE280E0D84002723F1 /* Sensory.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sensory.mp4; sourceTree = "<group>"; };
+		E4D3B5EF280E0D84002723F1 /* Go.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Go.mp4; sourceTree = "<group>"; };
+		E4D3B5F0280E0D85002723F1 /* Excuseme.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Excuseme.mp4; sourceTree = "<group>"; };
+		E4D3B5F1280E0D85002723F1 /* Big.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Big.mp4; sourceTree = "<group>"; };
+		E4D3B5F2280E0D86002723F1 /* Little.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Little.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +219,34 @@
 				E4D3B5C9280DE383002723F1 /* Pretty.mp4 */,
 				E4D3B5C2280DE383002723F1 /* Put.mp4 */,
 				E4D3B5BD280DE383002723F1 /* Wait.mp4 */,
+				E4D3B5E6280E0D81002723F1 /* Again.mp4 */,
+				E4D3B5ED280E0D83002723F1 /* Alldone.mp4 */,
+				E4D3B5D9280E0D7D002723F1 /* Ask.mp4 */,
+				E4D3B5F1280E0D85002723F1 /* Big.mp4 */,
+				E4D3B5DA280E0D7D002723F1 /* Break.mp4 */,
+				E4D3B5DD280E0D7E002723F1 /* Can.mp4 */,
+				E4D3B5D7280E0D7C002723F1 /* Do.mp4 */,
+				E4D3B5F0280E0D85002723F1 /* Excuseme.mp4 */,
+				E4D3B5DC280E0D7E002723F1 /* Fast.mp4 */,
+				E4D3B5EB280E0D83002723F1 /* Getoutofchair.mp4 */,
+				E4D3B5EF280E0D84002723F1 /* Go.mp4 */,
+				E4D3B5DF280E0D7E002723F1 /* Have.mp4 */,
+				E4D3B5E1280E0D7F002723F1 /* Help.mp4 */,
+				E4D3B5EA280E0D82002723F1 /* It.mp4 */,
+				E4D3B5D8280E0D7C002723F1 /* Leavemealone.mp4 */,
+				E4D3B5DE280E0D7E002723F1 /* Like.mp4 */,
+				E4D3B5F2280E0D86002723F1 /* Little.mp4 */,
+				E4D3B5E2280E0D7F002723F1 /* Mine.mp4 */,
+				E4D3B5E4280E0D80002723F1 /* More.mp4 */,
+				E4D3B5DB280E0D7D002723F1 /* Myturn.mp4 */,
+				E4D3B5E3280E0D80002723F1 /* Need.mp4 */,
+				E4D3B5E5280E0D80002723F1 /* Not.mp4 */,
+				E4D3B5E0280E0D7F002723F1 /* Ready.mp4 */,
+				E4D3B5EE280E0D84002723F1 /* Sensory.mp4 */,
+				E4D3B5E7280E0D81002723F1 /* Slow.mp4 */,
+				E4D3B5E8280E0D81002723F1 /* Somethingdifferent.mp4 */,
+				E4D3B5EC280E0D83002723F1 /* Stop.mp4 */,
+				E4D3B5E9280E0D82002723F1 /* That.mp4 */,
 				E4A049E62741EE6F00D3BE4A /* art.scnassets */,
 				E4A049E42741EE6F00D3BE4A /* AppDelegate.swift */,
 				E4A049E82741EE6F00D3BE4A /* ViewController.swift */,
@@ -231,44 +315,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4D3B60B280E0D86002723F1 /* Go.mp4 in Resources */,
+				E4D3B601280E0D86002723F1 /* Not.mp4 in Resources */,
+				E4D3B609280E0D86002723F1 /* Alldone.mp4 in Resources */,
+				E4D3B60E280E0D86002723F1 /* Little.mp4 in Resources */,
+				E4D3B5F5280E0D86002723F1 /* Ask.mp4 in Resources */,
 				E4D3B5D2280DE383002723F1 /* Later.mp4 in Resources */,
 				E4D3B5D6280DE383002723F1 /* Pretty.mp4 in Resources */,
 				E4A13C1227D1AB0D00D1FB31 /* Good.mp4 in Resources */,
 				E41C135127BB4218003B6B2D /* When.mp4 in Resources */,
 				E41C135D27BB4AEB003B6B2D /* Bathroom.mp4 in Resources */,
+				E4D3B608280E0D86002723F1 /* Stop.mp4 in Resources */,
 				E41C136127BB4AF8003B6B2D /* Look.mp4 in Resources */,
+				E4D3B5F9280E0D86002723F1 /* Can.mp4 in Resources */,
 				E4D3B5CE280DE383002723F1 /* Foggy.mp4 in Resources */,
 				E4D3B5CA280DE383002723F1 /* Wait.mp4 in Resources */,
 				E47C0E0F27DC1EE10018887A /* Lunch.mp4 in Resources */,
+				E4D3B5FC280E0D86002723F1 /* Ready.mp4 in Resources */,
+				E4D3B5FF280E0D86002723F1 /* Need.mp4 in Resources */,
 				E4D3B5D0280DE383002723F1 /* Make.mp4 in Resources */,
 				E47C0E1127DC1EEC0018887A /* Know.mp4 in Resources */,
 				E4D3B5CB280DE383002723F1 /* Get.mp4 in Resources */,
+				E4D3B60C280E0D86002723F1 /* Excuseme.mp4 in Resources */,
+				E4D3B60D280E0D86002723F1 /* Big.mp4 in Resources */,
 				E41C135727BB47E3003B6B2D /* Who.mp4 in Resources */,
+				E4D3B5F4280E0D86002723F1 /* Leavemealone.mp4 in Resources */,
+				E4D3B5FD280E0D86002723F1 /* Help.mp4 in Resources */,
 				E4D3B5D3280DE383002723F1 /* Music.mp4 in Resources */,
 				E4A049E72741EE6F00D3BE4A /* art.scnassets in Resources */,
+				E4D3B5F8280E0D86002723F1 /* Fast.mp4 in Resources */,
+				E4D3B5FB280E0D86002723F1 /* Have.mp4 in Resources */,
 				E41C136327BB4AFE003B6B2D /* Outside.mp4 in Resources */,
 				E4A13C1727D1AEFA00D1FB31 /* Sunny.mp4 in Resources */,
+				E4D3B5FE280E0D86002723F1 /* Mine.mp4 in Resources */,
 				E4A049F12741EE7700D3BE4A /* LaunchScreen.storyboard in Resources */,
+				E4D3B607280E0D86002723F1 /* Getoutofchair.mp4 in Resources */,
 				E41C135F27BB4AF2003B6B2D /* Hi.mp4 in Resources */,
 				E41C135327BB44C4003B6B2D /* Same.mp4 in Resources */,
 				E4A049EE2741EE7700D3BE4A /* Assets.xcassets in Resources */,
 				E4A13C0D27D1AB0D00D1FB31 /* You.mp4 in Resources */,
 				E41C135927BB4817003B6B2D /* Yes.mp4 in Resources */,
+				E4D3B600280E0D86002723F1 /* More.mp4 in Resources */,
 				E4D3B5CC280DE383002723F1 /* Bored.mp4 in Resources */,
 				E4D3B5D5280DE383002723F1 /* Play.mp4 in Resources */,
 				E4A13C0E27D1AB0D00D1FB31 /* Funny.mp4 in Resources */,
 				E4A13C1527D1AB0D00D1FB31 /* Open.mp4 in Resources */,
+				E4D3B604280E0D86002723F1 /* Somethingdifferent.mp4 in Resources */,
 				E4A13C1327D1AB0D00D1FB31 /* I.mp4 in Resources */,
 				E4D3B5CD280DE383002723F1 /* Literacy.mp4 in Resources */,
 				E4D3B5D4280DE383002723F1 /* Lesson.mp4 in Resources */,
+				E4D3B5F3280E0D86002723F1 /* Do.mp4 in Resources */,
+				E4D3B5F6280E0D86002723F1 /* Break.mp4 in Resources */,
 				E4D3B5CF280DE383002723F1 /* Put.mp4 in Resources */,
+				E4D3B603280E0D86002723F1 /* Slow.mp4 in Resources */,
 				E4A13C1127D1AB0D00D1FB31 /* Cloudy.mp4 in Resources */,
+				E4D3B605280E0D86002723F1 /* That.mp4 in Resources */,
+				E4D3B5F7280E0D86002723F1 /* Myturn.mp4 in Resources */,
 				E41C135B27BB481E003B6B2D /* No.mp4 in Resources */,
+				E4D3B606280E0D86002723F1 /* It.mp4 in Resources */,
 				E4A13C0F27D1AB0D00D1FB31 /* Snowy.mp4 in Resources */,
+				E4D3B602280E0D86002723F1 /* Again.mp4 in Resources */,
 				E4A049EC2741EE6F00D3BE4A /* Main.storyboard in Resources */,
 				E4A13C1027D1AB0D00D1FB31 /* Bad.mp4 in Resources */,
 				E41C136527BB4B17003B6B2D /* Where.mp4 in Resources */,
+				E4D3B5FA280E0D86002723F1 /* Like.mp4 in Resources */,
 				E4D3B5D1280DE383002723F1 /* Now.mp4 in Resources */,
+				E4D3B60A280E0D86002723F1 /* Sensory.mp4 in Resources */,
 				E4A13C1427D1AB0D00D1FB31 /* Close.mp4 in Resources */,
 				E4A13C0127D1A39300D1FB31 /* What.mp4 in Resources */,
 			);

@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "Need.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 0.13941908713692946
+  }
+}

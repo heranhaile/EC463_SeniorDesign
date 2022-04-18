@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "Not.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 0.13294117647058823
+  }
+}

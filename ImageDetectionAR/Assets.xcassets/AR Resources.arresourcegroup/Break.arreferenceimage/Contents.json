@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "Break.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 0.12723214285714288
+  }
+}
