@@ -65,7 +65,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         let videoPlayerNode = SCNNode()
         
         let videoPlayerGeometry = SCNPlane(width: target.physicalSize.width, height: target.physicalSize.height)
-        
+                        
         var videoPlayer = AVPlayer()
         
         if let targetName = target.name,
@@ -87,7 +87,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         guard let validAnchor = anchor as? ARImageAnchor else { return }
         
         let videoCollection = createVideoNodeFor(validAnchor.referenceImage)
-        
+
         videoNode = videoCollection.0
     
         node.addChildNode(videoNode)

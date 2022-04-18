@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "Now.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 0.12897727272727275
+  }
+}

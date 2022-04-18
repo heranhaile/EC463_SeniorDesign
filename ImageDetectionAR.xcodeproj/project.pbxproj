@@ -36,6 +36,19 @@
 		E4A13C1427D1AB0D00D1FB31 /* Close.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4A13C0A27D1AB0D00D1FB31 /* Close.mp4 */; };
 		E4A13C1527D1AB0D00D1FB31 /* Open.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4A13C0B27D1AB0D00D1FB31 /* Open.mp4 */; };
 		E4A13C1727D1AEFA00D1FB31 /* Sunny.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4A13C1627D1AEFA00D1FB31 /* Sunny.mp4 */; };
+		E4D3B5CA280DE383002723F1 /* Wait.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5BD280DE383002723F1 /* Wait.mp4 */; };
+		E4D3B5CB280DE383002723F1 /* Get.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5BE280DE383002723F1 /* Get.mp4 */; };
+		E4D3B5CC280DE383002723F1 /* Bored.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5BF280DE383002723F1 /* Bored.mp4 */; };
+		E4D3B5CD280DE383002723F1 /* Literacy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5C0280DE383002723F1 /* Literacy.mp4 */; };
+		E4D3B5CE280DE383002723F1 /* Foggy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5C1280DE383002723F1 /* Foggy.mp4 */; };
+		E4D3B5CF280DE383002723F1 /* Put.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5C2280DE383002723F1 /* Put.mp4 */; };
+		E4D3B5D0280DE383002723F1 /* Make.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5C3280DE383002723F1 /* Make.mp4 */; };
+		E4D3B5D1280DE383002723F1 /* Now.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5C4280DE383002723F1 /* Now.mp4 */; };
+		E4D3B5D2280DE383002723F1 /* Later.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5C5280DE383002723F1 /* Later.mp4 */; };
+		E4D3B5D3280DE383002723F1 /* Music.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5C6280DE383002723F1 /* Music.mp4 */; };
+		E4D3B5D4280DE383002723F1 /* Lesson.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5C7280DE383002723F1 /* Lesson.mp4 */; };
+		E4D3B5D5280DE383002723F1 /* Play.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5C8280DE383002723F1 /* Play.mp4 */; };
+		E4D3B5D6280DE383002723F1 /* Pretty.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5C9280DE383002723F1 /* Pretty.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +82,19 @@
 		E4A13C0A27D1AB0D00D1FB31 /* Close.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Close.mp4; sourceTree = "<group>"; };
 		E4A13C0B27D1AB0D00D1FB31 /* Open.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Open.mp4; sourceTree = "<group>"; };
 		E4A13C1627D1AEFA00D1FB31 /* Sunny.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sunny.mp4; sourceTree = "<group>"; };
+		E4D3B5BD280DE383002723F1 /* Wait.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Wait.mp4; path = ../../../../Desktop/PrintAR_Images/videos/Wait.mp4; sourceTree = "<group>"; };
+		E4D3B5BE280DE383002723F1 /* Get.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Get.mp4; path = ../../../../Desktop/PrintAR_Images/videos/Get.mp4; sourceTree = "<group>"; };
+		E4D3B5BF280DE383002723F1 /* Bored.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Bored.mp4; path = ../../../../Desktop/PrintAR_Images/videos/Bored.mp4; sourceTree = "<group>"; };
+		E4D3B5C0280DE383002723F1 /* Literacy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Literacy.mp4; path = ../../../../Desktop/PrintAR_Images/videos/Literacy.mp4; sourceTree = "<group>"; };
+		E4D3B5C1280DE383002723F1 /* Foggy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Foggy.mp4; path = ../../../../Desktop/PrintAR_Images/videos/Foggy.mp4; sourceTree = "<group>"; };
+		E4D3B5C2280DE383002723F1 /* Put.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Put.mp4; path = ../../../../Desktop/PrintAR_Images/videos/Put.mp4; sourceTree = "<group>"; };
+		E4D3B5C3280DE383002723F1 /* Make.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Make.mp4; path = ../../../../Desktop/PrintAR_Images/videos/Make.mp4; sourceTree = "<group>"; };
+		E4D3B5C4280DE383002723F1 /* Now.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Now.mp4; path = ../../../../Desktop/PrintAR_Images/videos/Now.mp4; sourceTree = "<group>"; };
+		E4D3B5C5280DE383002723F1 /* Later.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Later.mp4; path = ../../../../Desktop/PrintAR_Images/videos/Later.mp4; sourceTree = "<group>"; };
+		E4D3B5C6280DE383002723F1 /* Music.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Music.mp4; path = ../../../../Desktop/PrintAR_Images/videos/Music.mp4; sourceTree = "<group>"; };
+		E4D3B5C7280DE383002723F1 /* Lesson.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Lesson.mp4; path = ../../../../Desktop/PrintAR_Images/videos/Lesson.mp4; sourceTree = "<group>"; };
+		E4D3B5C8280DE383002723F1 /* Play.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Play.mp4; path = ../../../../Desktop/PrintAR_Images/videos/Play.mp4; sourceTree = "<group>"; };
+		E4D3B5C9280DE383002723F1 /* Pretty.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Pretty.mp4; path = ../../../../Desktop/PrintAR_Images/videos/Pretty.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,30 +132,43 @@
 				E4A13C0A27D1AB0D00D1FB31 /* Close.mp4 */,
 				E4A13C0727D1AB0C00D1FB31 /* Cloudy.mp4 */,
 				E4A13C0427D1AB0B00D1FB31 /* Funny.mp4 */,
-				E41C135A27BB481E003B6B2D /* No.mp4 */,
 				E4A13C0827D1AB0C00D1FB31 /* Good.mp4 */,
+				E41C135E27BB4AF2003B6B2D /* Hi.mp4 */,
 				E4A13C0927D1AB0C00D1FB31 /* I.mp4 */,
+				E47C0E1027DC1EEC0018887A /* Know.mp4 */,
+				E41C136027BB4AF8003B6B2D /* Look.mp4 */,
+				E47C0E0E27DC1EE10018887A /* Lunch.mp4 */,
+				E41C135A27BB481E003B6B2D /* No.mp4 */,
 				E4A13C0B27D1AB0D00D1FB31 /* Open.mp4 */,
 				E41C136227BB4AFE003B6B2D /* Outside.mp4 */,
-				E47C0E1027DC1EEC0018887A /* Know.mp4 */,
-				E47C0E0E27DC1EE10018887A /* Lunch.mp4 */,
-				E41C136027BB4AF8003B6B2D /* Look.mp4 */,
-				E41C135E27BB4AF2003B6B2D /* Hi.mp4 */,
-				E4A13C0327D1AB0A00D1FB31 /* You.mp4 */,
-				E41C135827BB4817003B6B2D /* Yes.mp4 */,
+				E41C135227BB44C4003B6B2D /* Same.mp4 */,
 				E4A13C0527D1AB0B00D1FB31 /* Snowy.mp4 */,
 				E4A13C1627D1AEFA00D1FB31 /* Sunny.mp4 */,
-				E41C135227BB44C4003B6B2D /* Same.mp4 */,
 				E4A13C0027D1A39300D1FB31 /* What.mp4 */,
-				E41C135627BB47E3003B6B2D /* Who.mp4 */,
-				E41C136427BB4B17003B6B2D /* Where.mp4 */,
 				E41C135027BB4218003B6B2D /* When.mp4 */,
-				E4A049E42741EE6F00D3BE4A /* AppDelegate.swift */,
+				E41C136427BB4B17003B6B2D /* Where.mp4 */,
+				E41C135627BB47E3003B6B2D /* Who.mp4 */,
+				E41C135827BB4817003B6B2D /* Yes.mp4 */,
+				E4A13C0327D1AB0A00D1FB31 /* You.mp4 */,
+				E4D3B5BF280DE383002723F1 /* Bored.mp4 */,
+				E4D3B5C1280DE383002723F1 /* Foggy.mp4 */,
+				E4D3B5BE280DE383002723F1 /* Get.mp4 */,
+				E4D3B5C5280DE383002723F1 /* Later.mp4 */,
+				E4D3B5C7280DE383002723F1 /* Lesson.mp4 */,
+				E4D3B5C0280DE383002723F1 /* Literacy.mp4 */,
+				E4D3B5C3280DE383002723F1 /* Make.mp4 */,
+				E4D3B5C6280DE383002723F1 /* Music.mp4 */,
+				E4D3B5C4280DE383002723F1 /* Now.mp4 */,
+				E4D3B5C8280DE383002723F1 /* Play.mp4 */,
+				E4D3B5C9280DE383002723F1 /* Pretty.mp4 */,
+				E4D3B5C2280DE383002723F1 /* Put.mp4 */,
+				E4D3B5BD280DE383002723F1 /* Wait.mp4 */,
 				E4A049E62741EE6F00D3BE4A /* art.scnassets */,
+				E4A049E42741EE6F00D3BE4A /* AppDelegate.swift */,
 				E4A049E82741EE6F00D3BE4A /* ViewController.swift */,
-				E4A049EA2741EE6F00D3BE4A /* Main.storyboard */,
 				E4A049ED2741EE7700D3BE4A /* Assets.xcassets */,
 				E4A049EF2741EE7700D3BE4A /* LaunchScreen.storyboard */,
+				E4A049EA2741EE6F00D3BE4A /* Main.storyboard */,
 			);
 			path = ImageDetectionAR;
 			sourceTree = "<group>";
@@ -192,13 +231,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4D3B5D2280DE383002723F1 /* Later.mp4 in Resources */,
+				E4D3B5D6280DE383002723F1 /* Pretty.mp4 in Resources */,
 				E4A13C1227D1AB0D00D1FB31 /* Good.mp4 in Resources */,
 				E41C135127BB4218003B6B2D /* When.mp4 in Resources */,
 				E41C135D27BB4AEB003B6B2D /* Bathroom.mp4 in Resources */,
 				E41C136127BB4AF8003B6B2D /* Look.mp4 in Resources */,
+				E4D3B5CE280DE383002723F1 /* Foggy.mp4 in Resources */,
+				E4D3B5CA280DE383002723F1 /* Wait.mp4 in Resources */,
 				E47C0E0F27DC1EE10018887A /* Lunch.mp4 in Resources */,
+				E4D3B5D0280DE383002723F1 /* Make.mp4 in Resources */,
 				E47C0E1127DC1EEC0018887A /* Know.mp4 in Resources */,
+				E4D3B5CB280DE383002723F1 /* Get.mp4 in Resources */,
 				E41C135727BB47E3003B6B2D /* Who.mp4 in Resources */,
+				E4D3B5D3280DE383002723F1 /* Music.mp4 in Resources */,
 				E4A049E72741EE6F00D3BE4A /* art.scnassets in Resources */,
 				E41C136327BB4AFE003B6B2D /* Outside.mp4 in Resources */,
 				E4A13C1727D1AEFA00D1FB31 /* Sunny.mp4 in Resources */,
@@ -208,15 +254,21 @@
 				E4A049EE2741EE7700D3BE4A /* Assets.xcassets in Resources */,
 				E4A13C0D27D1AB0D00D1FB31 /* You.mp4 in Resources */,
 				E41C135927BB4817003B6B2D /* Yes.mp4 in Resources */,
+				E4D3B5CC280DE383002723F1 /* Bored.mp4 in Resources */,
+				E4D3B5D5280DE383002723F1 /* Play.mp4 in Resources */,
 				E4A13C0E27D1AB0D00D1FB31 /* Funny.mp4 in Resources */,
 				E4A13C1527D1AB0D00D1FB31 /* Open.mp4 in Resources */,
 				E4A13C1327D1AB0D00D1FB31 /* I.mp4 in Resources */,
+				E4D3B5CD280DE383002723F1 /* Literacy.mp4 in Resources */,
+				E4D3B5D4280DE383002723F1 /* Lesson.mp4 in Resources */,
+				E4D3B5CF280DE383002723F1 /* Put.mp4 in Resources */,
 				E4A13C1127D1AB0D00D1FB31 /* Cloudy.mp4 in Resources */,
 				E41C135B27BB481E003B6B2D /* No.mp4 in Resources */,
 				E4A13C0F27D1AB0D00D1FB31 /* Snowy.mp4 in Resources */,
 				E4A049EC2741EE6F00D3BE4A /* Main.storyboard in Resources */,
 				E4A13C1027D1AB0D00D1FB31 /* Bad.mp4 in Resources */,
 				E41C136527BB4B17003B6B2D /* Where.mp4 in Resources */,
+				E4D3B5D1280DE383002723F1 /* Now.mp4 in Resources */,
 				E4A13C1427D1AB0D00D1FB31 /* Close.mp4 in Resources */,
 				E4A13C0127D1A39300D1FB31 /* What.mp4 in Resources */,
 			);
