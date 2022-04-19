@@ -5,6 +5,12 @@
   },
   "resources" : [
     {
+      "filename" : "Adaptedbike.arreferenceimage"
+    },
+    {
+      "filename" : "Adaptedphysicaleducation.arreferenceimage"
+    },
+    {
       "filename" : "Again.arreferenceimage"
     },
     {
@@ -77,6 +83,9 @@
       "filename" : "I.arreferenceimage"
     },
     {
+      "filename" : "In.arreferenceimage"
+    },
+    {
       "filename" : "It.arreferenceimage"
     },
     {
@@ -134,10 +143,19 @@
       "filename" : "Now.arreferenceimage"
     },
     {
+      "filename" : "Occupationaltherapy.arreferenceimage"
+    },
+    {
       "filename" : "Open.arreferenceimage"
     },
     {
+      "filename" : "Out.arreferenceimage"
+    },
+    {
       "filename" : "Outside.arreferenceimage"
+    },
+    {
+      "filename" : "Physicaltherapy.arreferenceimage"
     },
     {
       "filename" : "Play.arreferenceimage"
@@ -174,6 +192,9 @@
     },
     {
       "filename" : "That.arreferenceimage"
+    },
+    {
+      "filename" : "This.arreferenceimage"
     },
     {
       "filename" : "Wait.arreferenceimage"

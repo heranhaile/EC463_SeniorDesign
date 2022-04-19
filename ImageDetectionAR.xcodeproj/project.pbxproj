@@ -36,6 +36,13 @@
 		E4A13C1427D1AB0D00D1FB31 /* Close.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4A13C0A27D1AB0D00D1FB31 /* Close.mp4 */; };
 		E4A13C1527D1AB0D00D1FB31 /* Open.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4A13C0B27D1AB0D00D1FB31 /* Open.mp4 */; };
 		E4A13C1727D1AEFA00D1FB31 /* Sunny.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4A13C1627D1AEFA00D1FB31 /* Sunny.mp4 */; };
+		E4C381B8280EE39500FB071B /* Occupationaltherapy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4C381B1280EE39400FB071B /* Occupationaltherapy.mp4 */; };
+		E4C381B9280EE39500FB071B /* Out.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4C381B2280EE39400FB071B /* Out.mp4 */; };
+		E4C381BA280EE39500FB071B /* In.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4C381B3280EE39500FB071B /* In.mp4 */; };
+		E4C381BB280EE39500FB071B /* Adaptedbike.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4C381B4280EE39500FB071B /* Adaptedbike.mp4 */; };
+		E4C381BC280EE39500FB071B /* Physicaltherapy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4C381B5280EE39500FB071B /* Physicaltherapy.mp4 */; };
+		E4C381BD280EE39500FB071B /* Adaptedphysicaleducation.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4C381B6280EE39500FB071B /* Adaptedphysicaleducation.mp4 */; };
+		E4C381BE280EE39500FB071B /* This.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4C381B7280EE39500FB071B /* This.mp4 */; };
 		E4D3B5CA280DE383002723F1 /* Wait.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5BD280DE383002723F1 /* Wait.mp4 */; };
 		E4D3B5CB280DE383002723F1 /* Get.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5BE280DE383002723F1 /* Get.mp4 */; };
 		E4D3B5CC280DE383002723F1 /* Bored.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D3B5BF280DE383002723F1 /* Bored.mp4 */; };
@@ -110,6 +117,13 @@
 		E4A13C0A27D1AB0D00D1FB31 /* Close.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Close.mp4; sourceTree = "<group>"; };
 		E4A13C0B27D1AB0D00D1FB31 /* Open.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Open.mp4; sourceTree = "<group>"; };
 		E4A13C1627D1AEFA00D1FB31 /* Sunny.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sunny.mp4; sourceTree = "<group>"; };
+		E4C381B1280EE39400FB071B /* Occupationaltherapy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Occupationaltherapy.mp4; sourceTree = "<group>"; };
+		E4C381B2280EE39400FB071B /* Out.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Out.mp4; sourceTree = "<group>"; };
+		E4C381B3280EE39500FB071B /* In.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = In.mp4; sourceTree = "<group>"; };
+		E4C381B4280EE39500FB071B /* Adaptedbike.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Adaptedbike.mp4; sourceTree = "<group>"; };
+		E4C381B5280EE39500FB071B /* Physicaltherapy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Physicaltherapy.mp4; sourceTree = "<group>"; };
+		E4C381B6280EE39500FB071B /* Adaptedphysicaleducation.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Adaptedphysicaleducation.mp4; sourceTree = "<group>"; };
+		E4C381B7280EE39500FB071B /* This.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = This.mp4; sourceTree = "<group>"; };
 		E4D3B5BD280DE383002723F1 /* Wait.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Wait.mp4; path = ../../../../Desktop/PrintAR_Images/videos/Used/Wait.mp4; sourceTree = "<group>"; };
 		E4D3B5BE280DE383002723F1 /* Get.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Get.mp4; path = ../../../../Desktop/PrintAR_Images/videos/Used/Get.mp4; sourceTree = "<group>"; };
 		E4D3B5BF280DE383002723F1 /* Bored.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Bored.mp4; path = ../../../../Desktop/PrintAR_Images/videos/Used/Bored.mp4; sourceTree = "<group>"; };
@@ -247,6 +261,13 @@
 				E4D3B5E8280E0D81002723F1 /* Somethingdifferent.mp4 */,
 				E4D3B5EC280E0D83002723F1 /* Stop.mp4 */,
 				E4D3B5E9280E0D82002723F1 /* That.mp4 */,
+				E4C381B4280EE39500FB071B /* Adaptedbike.mp4 */,
+				E4C381B6280EE39500FB071B /* Adaptedphysicaleducation.mp4 */,
+				E4C381B3280EE39500FB071B /* In.mp4 */,
+				E4C381B1280EE39400FB071B /* Occupationaltherapy.mp4 */,
+				E4C381B2280EE39400FB071B /* Out.mp4 */,
+				E4C381B5280EE39500FB071B /* Physicaltherapy.mp4 */,
+				E4C381B7280EE39500FB071B /* This.mp4 */,
 				E4A049E62741EE6F00D3BE4A /* art.scnassets */,
 				E4A049E42741EE6F00D3BE4A /* AppDelegate.swift */,
 				E4A049E82741EE6F00D3BE4A /* ViewController.swift */,
@@ -353,6 +374,7 @@
 				E41C135F27BB4AF2003B6B2D /* Hi.mp4 in Resources */,
 				E41C135327BB44C4003B6B2D /* Same.mp4 in Resources */,
 				E4A049EE2741EE7700D3BE4A /* Assets.xcassets in Resources */,
+				E4C381B8280EE39500FB071B /* Occupationaltherapy.mp4 in Resources */,
 				E4A13C0D27D1AB0D00D1FB31 /* You.mp4 in Resources */,
 				E41C135927BB4817003B6B2D /* Yes.mp4 in Resources */,
 				E4D3B600280E0D86002723F1 /* More.mp4 in Resources */,
@@ -366,6 +388,7 @@
 				E4D3B5D4280DE383002723F1 /* Lesson.mp4 in Resources */,
 				E4D3B5F3280E0D86002723F1 /* Do.mp4 in Resources */,
 				E4D3B5F6280E0D86002723F1 /* Break.mp4 in Resources */,
+				E4C381BB280EE39500FB071B /* Adaptedbike.mp4 in Resources */,
 				E4D3B5CF280DE383002723F1 /* Put.mp4 in Resources */,
 				E4D3B603280E0D86002723F1 /* Slow.mp4 in Resources */,
 				E4A13C1127D1AB0D00D1FB31 /* Cloudy.mp4 in Resources */,
@@ -374,15 +397,20 @@
 				E41C135B27BB481E003B6B2D /* No.mp4 in Resources */,
 				E4D3B606280E0D86002723F1 /* It.mp4 in Resources */,
 				E4A13C0F27D1AB0D00D1FB31 /* Snowy.mp4 in Resources */,
+				E4C381BA280EE39500FB071B /* In.mp4 in Resources */,
 				E4D3B602280E0D86002723F1 /* Again.mp4 in Resources */,
 				E4A049EC2741EE6F00D3BE4A /* Main.storyboard in Resources */,
 				E4A13C1027D1AB0D00D1FB31 /* Bad.mp4 in Resources */,
 				E41C136527BB4B17003B6B2D /* Where.mp4 in Resources */,
+				E4C381B9280EE39500FB071B /* Out.mp4 in Resources */,
+				E4C381BC280EE39500FB071B /* Physicaltherapy.mp4 in Resources */,
 				E4D3B5FA280E0D86002723F1 /* Like.mp4 in Resources */,
 				E4D3B5D1280DE383002723F1 /* Now.mp4 in Resources */,
 				E4D3B60A280E0D86002723F1 /* Sensory.mp4 in Resources */,
+				E4C381BD280EE39500FB071B /* Adaptedphysicaleducation.mp4 in Resources */,
 				E4A13C1427D1AB0D00D1FB31 /* Close.mp4 in Resources */,
 				E4A13C0127D1A39300D1FB31 /* What.mp4 in Resources */,
+				E4C381BE280EE39500FB071B /* This.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,7 +499,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -526,7 +554,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
