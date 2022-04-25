@@ -1,7 +1,7 @@
 # EC463_SeniorDesign
 
 ## Description/Project Overview
- PrintAR is an iOS mobile application in swift, developed using xcode. It is built mainly using ARkit and Scenekit frameworks provided by apple. See the software documentation and Hardware_readme for more specific technical information regarding the project. As a software based project, there is little hardware involved in this.
+ PrintAR is an iOS mobile application in swift, developed using xcode. It is built mainly using ARkit and Scenekit frameworks provided by apple. See the software documentation for more specific technical information regarding the project. Note that, as a predominantly software based project, there is little hardware involved in this.
  
  Currently, the application simply compiles and detects the images that are incorporated directly into the application without any access to the internet. The application is fully functional.
  
