@@ -69,7 +69,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         var videoPlayer = AVPlayer()
         
         if let targetName = target.name,
-           let validURL = Bundle.main.url(forResource: targetName, withExtension: "mp4") {
+           let validURL = Bundle.main.url(forResource: targetName, withExtension: "mp4", subdirectory: "Movies") {
             videoPlayer = AVPlayer(url: validURL)
             playerDict[targetName] = videoPlayer
         }
